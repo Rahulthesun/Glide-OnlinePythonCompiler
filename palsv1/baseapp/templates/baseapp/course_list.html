@@ -1,0 +1,13 @@
+<h1 style="margin-left: 45%; margin-top: 10px;">
+    Courses
+</h1>
+<hr>
+
+{% for i in courses %}
+    <div style="border-style: groove;width: 30%; border-color: black; border-radius: 5px; margin-left: 35%; margin-top: 50px; padding:20px; ">
+        <h2 style="padding: 5px 100px;">
+            <a href="{% url 'subunit_list' i.id %}">{{i.language}} {{i.difficulty}}</a>
+        </h2>
+    </div>
+{% endfor %}
+
