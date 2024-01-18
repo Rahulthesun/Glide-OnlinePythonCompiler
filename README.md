@@ -1,11 +1,12 @@
 # Glide-OnlinePythonCompiler
 The respository for the online compiler for Glide ( a AI-based procedural question generation Learning Platform)
 
-Built with :  
-Docker Container for sandboxed code execution.    
-Django Backend with Sqlite Database.    
-Html , Css And Javascript for Front-End.    
-Jquery and Ajax for responsive interactive site. 
+Built with :    
+
+>Docker Container for sandboxed code execution.    
+>Django Backend with Sqlite Database.    
+>Html , Css And Javascript for Front-End.    
+>Jquery and Ajax for responsive interactive site. 
 
 
 Pictures :
